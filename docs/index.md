@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: /images/hero.png
 heroText: Burning Isel
 tagline: A vuepress test site
 actionText: Quick Start →
