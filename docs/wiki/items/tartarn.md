@@ -2,8 +2,9 @@
 
 ## Tartarn Ingot
 
-<smelting input="/images/tartarn_nugget.png" output="/images/tartarn_ingot.png"/>
-
+Below
+<recipe-smelting input="/images/tartarn/tartarn_chunks.png" output="/images/tartarn/tartarn_nugget.png"/>
+Above
 
 
 

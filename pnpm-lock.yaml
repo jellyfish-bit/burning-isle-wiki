@@ -8,6 +8,12 @@ devDependencies:
   '@vuepress/client':
     specifier: 2.0.0-beta.66
     version: 2.0.0-beta.66
+  '@vuepress/plugin-register-components':
+    specifier: 2.0.0-beta.66
+    version: 2.0.0-beta.66
+  '@vuepress/utils':
+    specifier: 2.0.0-beta.66
+    version: 2.0.0-beta.66
   vue:
     specifier: ^3.3.4
     version: 3.3.4
@@ -360,7 +366,7 @@ packages:
   /@types/markdown-it-emoji@2.0.2:
     resolution: {integrity: sha512-2ln8Wjbcj/0oRi/6VnuMeWEHHuK8uapFttvcLmDIe1GKCsFBLOLBX+D+xhDa9oWOQV0IpvxwrSfKKssAqqroog==}
     dependencies:
-      '@types/markdown-it': 12.2.3
+      '@types/markdown-it': 13.0.0
     dev: true
 
   /@types/markdown-it@12.2.3:
@@ -693,6 +699,17 @@ packages:
     dependencies:
       '@vuepress/core': 2.0.0-beta.66
       prismjs: 1.29.0
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - supports-color
+    dev: true
+
+  /@vuepress/plugin-register-components@2.0.0-beta.66:
+    resolution: {integrity: sha512-AQP813aOEByVcZXTsYXuzdC0rw/UjRETyTMwad83cAFM+lNle9bVBbMlC6FfXwb+hYo4Sbc9JJUvvaPUxc51jg==}
+    dependencies:
+      '@vuepress/core': 2.0.0-beta.66
+      '@vuepress/utils': 2.0.0-beta.66
+      chokidar: 3.5.3
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
