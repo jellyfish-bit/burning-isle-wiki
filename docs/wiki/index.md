@@ -1,4 +1,9 @@
-# Wiki
 
-* [Items](items/index.md)
-* Blocks
+# Content
+- [Items](items/index.md)
+- [Blocks](blocks/index.md)
+- [Entities](entities/index.md)
+- [Spells](spells/index.md)
+
+
+

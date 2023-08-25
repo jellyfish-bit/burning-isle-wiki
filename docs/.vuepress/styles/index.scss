@@ -1,0 +1,68 @@
+.home .hero img {
+  max-width: 450px!important;
+}
+.crafting-preview {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 519px;
+  margin-inline: auto;
+}
+.crafting-arrow {
+  color: var(--c-brand);
+  font-size: 40px;
+  font-weight: 100;
+}
+.crafting-result {
+  border: 1px solid var(--c-brand);
+  border-radius: 5px;
+  padding: 4px;
+  width: 64px;
+  height: 64px;
+}
+
+
+.crafting-grid {
+  border-collapse: collapse;
+  border-radius: 10px;
+
+}
+.crafting-grid tr {
+  border: none;
+}
+.crafting-grid td {
+  border: 1px solid var(--c-brand);
+  background-color: var(--c-details-bg);
+  width: 32px;
+  height: 32px;
+}
+.crafting-grid td:first-child {
+  border-left: none;
+}
+.crafting-grid td:last-child {
+  border-right: none;
+}
+.crafting-grid tr:last-child td {
+  border-bottom: none;
+}
+.crafting-grid tr:first-child td {
+  border-top: none;
+}
+
+.smelting-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 196px;
+  height: 196px;
+}
+.smelting-input img {
+  width: 64px;
+  height: 64px;
+  border-radius: 7px
+}
+.smelting-input svg {
+  fill: var(--c-brand);
+}

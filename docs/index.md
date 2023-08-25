@@ -8,19 +8,19 @@ actionLink: /guide/
 xfeatures:
 - title: Getting Started
   details: Feature 1 Description
-  link: /vuepress-starter/guide/
+  link: /guide/
 - title: Wiki
   details: The Wiki
-  link: /vuepress-starter/wiki/
+  link: /wiki/
 - title: API
   details: Lorem ipsum
-  link: /vuepress-starter/api/
+  link: /api/
 footer: Made by Jellyfish with ❤️
 ---
 
 <div class="features">
   <div class="feature" v-for="feat in $page.frontmatter.xfeatures">
-    <h2><a v-bind:href="feat.link">{{ feat.title }}</a></h2>
+    <h2><a v-bind:href='$withBase(feat.link)'>{{ feat.title }}</a></h2>
     <p>{{ feat.details }}</p>
   </div>
 </div>

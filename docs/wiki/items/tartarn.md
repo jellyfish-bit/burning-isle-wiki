@@ -1,4 +1,11 @@
 # Tartarn
 
 ## Tartarn Ingot
-<img src="/images/tartarn_ingot.png">
+
+<smelting input="/images/tartarn_nugget.png" output="/images/tartarn_ingot.png"/>
+
+
+
+
+
+
