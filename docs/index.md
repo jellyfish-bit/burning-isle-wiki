@@ -1,10 +1,15 @@
 ---
 home: true
 heroImage: /images/hero.png
-heroText: Burning Isel
-tagline: A vuepress test site
-actionText: Quick Start →
-actionLink: /guide/
+heroText: 
+tagline:
+actions:
+  - text: Getting Started
+    link: /guide/
+    type: primary
+  - text: Wiki
+    link: /wiki/
+    type: secondary
 xfeatures:
 - title: Getting Started
   details: Feature 1 Description

@@ -1,6 +1,11 @@
 .home .hero img {
- // max-width: 450px!important;
+ //width: 100% !important;
+ //height: auto !important;
 }
+.page-meta {
+  display: none !important;
+}
+
 .crafting-preview {
   display: flex;
   justify-content: space-between;
@@ -20,7 +25,6 @@
   width: 64px;
   height: 64px;
 }
-
 
 .crafting-grid {
   border-collapse: collapse;
