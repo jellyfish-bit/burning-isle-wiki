@@ -9,19 +9,6 @@ If you are using or demoing components that are not SSR friendly (for example co
 ## HH
 <img src="../../docs/.vuepress/public/images/hero.png">
 
-<Item img="/images/minecraft/blaze_rod.png" att_dmg="2" att_speed="2"/>
 
 ## Seperator
-
-<ItemNew name="bottle_of_glow_ink"/>
-
-
-
-<hr>
-<ItemNew name="tartarn_sword"/>
-<ItemNew name="test"/>
-
-
-<img src="/images/tartarn/ingot.png"/>
-<recipe-SmeltingNew input="tartarn_chunks" output="tartarn_chunks"/>
 
