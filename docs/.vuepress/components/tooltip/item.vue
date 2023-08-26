@@ -34,7 +34,11 @@
         armor_v: [Number, String],
         armor_thougness: [Number, String],
         knockback_resistance: [Number, String],
-        glowing_v: [Number, String]
+        glowing_v: [Number, String],
+        xoffset: {
+          type: Number,
+          default: 0
+        }
       }
     }
 </script>
@@ -48,7 +52,7 @@
 }
 .hover-item .hover-preview {
     bottom: -1.6em;
-    left: 0;
+    left: v-bind(xoffset + "px");
     position: absolute;
     font-family: "Minecraftia";
 

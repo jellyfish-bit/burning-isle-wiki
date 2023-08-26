@@ -23,4 +23,5 @@ If you are using or demoing components that are not SSR friendly (for example co
 
 
 <img src="/images/tartarn/ingot.png"/>
+<recipe-SmeltingNew input="tartarn_chunks" output="tartarn_chunks"/>
 

@@ -18,7 +18,7 @@
       </tr>
     </table>
     <div class=crafting-arrow>&#8594;</div>
-    <ItemNew class="crafting-result" width="64px" height="64px" :name="result" :alt="result"/>
+    <ItemNew class="crafting-result" width="64px" height="64px" :name="result" :offset="-100"/>
   </div>
 </template>
   
@@ -67,6 +67,7 @@ export default {
   align-items: center;
   max-width: 519px;
   margin-inline: auto;
+  
 }
 .crafting-arrow {
   color: var(--c-brand);
@@ -84,7 +85,7 @@ export default {
 .crafting-grid {
   border-collapse: collapse;
   border-radius: 10px;
-
+  overflow: visible;
 }
 .crafting-grid tr {
   border: none;

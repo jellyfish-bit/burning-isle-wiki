@@ -1,122 +1,121 @@
 # Tartarn
 
 ## Tartarn Ingot
-<Item img="/images/tartarn/ingot.png"/>
+<ItemNew name="tartarn_ingot"/>
 
 Primarly used for making Tartarn tools and armor
 
 ## Tartarn Nugget
-<Item img="/images/tartarn/nugget.png"/>
-
+<ItemNew name="tartarn_nugget"/>
 
 ## Tartarn Chunks
-<Item img="/images/tartarn/chunks.png"/>
+<ItemNew name="tartarn_chunks"/>
 Obtainened from breaking Tartarn Clusters
 
 ::: details Recipe
-<recipe-crafting 
-    slot_1 = "/images/tartarn/nugget.png"
-    slot_2 = "/images/tartarn/nugget.png"
-    slot_3 = "/images/tartarn/nugget.png"
-    slot_4 = "/images/tartarn/nugget.png"
-    slot_5 = "/images/tartarn/nugget.png"
-    slot_6 = "/images/tartarn/nugget.png"
-    slot_7 = "/images/tartarn/nugget.png"
-    slot_8 = "/images/tartarn/nugget.png"
-    slot_9 = "/images/tartarn/nugget.png" 
-    output="/images/tartarn/ingot.png" />
+<recipe-CraftingNew
+    slot_1 = "tartarn_nugget"
+    slot_2 = "tartarn_nugget"
+    slot_3 = "tartarn_nugget"
+    slot_4 = "tartarn_nugget"
+    slot_5 = "tartarn_nugget"
+    slot_6 = "tartarn_nugget"
+    slot_7 = "tartarn_nugget"
+    slot_8 = "tartarn_nugget"
+    slot_9 = "tartarn_nugget"
+    result="tartarn_ingot" />
 <hr class="recipe-divider">
-<recipe-smelting input="/images/tartarn/chunks.png" output="/images/tartarn/nugget.png"/>
+<recipe-SmeltingNew input="tartarn_chunks" result="tartarn_nugget" time="6"/>
 :::
 
 ## Tools
-<Item img="/images/tartarn/sword.png" att_dmg="8" att_speed="1.7"/>
-<Item img="/images/tartarn/axe.png" att_dmg="6" att_speed="1.3"/>
-<Item img="/images/tartarn/pickaxe.png" att_dmg="12" att_speed="0.9"/>
-<Item img="/images/tartarn/shovel.png" att_dmg="6.5" att_speed="1.1"/>
-<Item img="/images/tartarn/hoe.png" att_dmg="4" att_speed="2.1"/>
+<ItemNew name="tartarn_sword"/>
+<ItemNew name="tartarn_axe"/>
+<ItemNew name="tartarn_pickaxe"/>
+<ItemNew name="tartarn_shovel"/>
+<ItemNew name="tartarn_hoe"/>
 
 
 ::: details Recipe
-<recipe-crafting 
-    slot_2 = "/images/tartarn/ingot.png"
-    slot_5 = "/images/tartarn/ingot.png"
-    slot_8 = "/images/minecraft/blaze_rod.png"
-    output="/images/tartarn/sword.png" />
+<recipe-CraftingNew 
+    slot_2 = "tartarn_ingot"
+    slot_5 = "tartarn_ingot"
+    slot_8 = "blaze_rod"
+    result="tartarn_sword" />
 <hr class="recipe-divider">
-<recipe-crafting 
-    slot_1 = "/images/tartarn/ingot.png"
-    slot_2 = "/images/tartarn/ingot.png"
-    slot_4 = "/images/tartarn/ingot.png"
-    slot_5 = "/images/minecraft/blaze_rod.png"
-    slot_8 = "/images/minecraft/blaze_rod.png"
-    output="/images/tartarn/axe.png" />
+<recipe-CraftingNew 
+    slot_1 = "tartarn_ingot"
+    slot_2 = "tartarn_ingot"
+    slot_4 = "tartarn_ingot"
+    slot_5 = "blaze_rod"
+    slot_8 = "blaze_rod"
+    result="tartarn_axe" />
 <hr class="recipe-divider">
-<recipe-crafting 
-    slot_1 = "/images/tartarn/ingot.png"
-    slot_2 = "/images/tartarn/ingot.png"
-    slot_3 = "/images/tartarn/ingot.png"
-    slot_5 = "/images/minecraft/blaze_rod.png"
-    slot_8 = "/images/minecraft/blaze_rod.png"
-    output="/images/tartarn/pickaxe.png" />
+<recipe-CraftingNew 
+    slot_1 = "tartarn_ingot"
+    slot_2 = "tartarn_ingot"
+    slot_3 = "tartarn_ingot"
+    slot_5 = "blaze_rod"
+    slot_8 = "blaze_rod"
+    result="tartarn_pickaxe" />
 <hr class="recipe-divider">
-<recipe-crafting 
-    slot_2 = "/images/tartarn/ingot.png"
-    slot_5 = "/images/minecraft/blaze_rod.png"
-    slot_8 = "/images/minecraft/blaze_rod.png"
-    output="/images/tartarn/shovel.png" />
+<recipe-CraftingNew 
+    slot_2 = "tartarn_ingot"
+    slot_5 = "blaze_rod"
+    slot_8 = "blaze_rod"
+    result="tartarn_shovel" />
 <hr class="recipe-divider">
-<recipe-crafting 
-    slot_1 = "/images/tartarn/ingot.png"
-    slot_2 = "/images/tartarn/ingot.png"
-    slot_5 = "/images/minecraft/blaze_rod.png"
-    slot_8 = "/images/minecraft/blaze_rod.png"
-    output="/images/tartarn/shovel.png" />
+<recipe-CraftingNew 
+    slot_2 = "tartarn_ingot"
+    slot_5 = "blaze_rod"
+    slot_8 = "blaze_rod"
+    result="tartarn_hoe" />
 :::    
 
 
 ## Armor
-<Item img="/images/tartarn/helmet.png" armor="3" armor_thg="2.5" knockback="0.5" glowing="1"/>
-<Item img="/images/tartarn/chestplate.png" armor="8" armor_thg="2.5" knockback="0.5" glowing="1"/>
-<Item img="/images/tartarn/leggings.png" armor="6" armor_thg="2.5" knockback=".5" glowing="1"/>
-<Item img="/images/tartarn/boots.png" armor="3" armor_thg="2.5" knockback="0.5" glowing="1"/>
+<ItemNew name="tartarn_helmet"/>
+<ItemNew name="tartarn_chestplate"/>
+<ItemNew name="tartarn_leggings"/>
+<ItemNew name="tartarn_boots"/>
+
 
 A power full armor that increases the effects of spells
 
 ::: details Recipe
-<recipe-crafting 
-    slot_1 = "/images/tartarn/ingot.png"
-    slot_2 = "/images/tartarn/ingot.png"
-    slot_3 = "/images/tartarn/ingot.png"
-    slot_4 = "/images/tartarn/ingot.png"
-    slot_6 = "/images/tartarn/ingot.png"
-    output="/images/tartarn/helmet.png" />
+<recipe-CraftingNew
+    slot_1 = "tartarn_ingot"
+    slot_2 = "tartarn_ingot"
+    slot_3 = "tartarn_ingot"
+    slot_4 = "tartarn_ingot"
+    slot_6 = "tartarn_ingot"
+    result="tartarn_helmet" />
 <hr class="recipe-divider">
-<recipe-crafting 
-    slot_1 = "/images/tartarn/ingot.png"
-    slot_3 = "/images/tartarn/ingot.png"
-    slot_4 = "/images/tartarn/ingot.png"
-    slot_5 = "/images/tartarn/ingot.png"
-    slot_6 = "/images/tartarn/ingot.png"
-    slot_7 = "/images/tartarn/ingot.png"
-    slot_8 = "/images/tartarn/ingot.png"
-    slot_9 = "/images/tartarn/ingot.png" 
-    output="/images/tartarn/chestplate.png" />
+<recipe-CraftingNew
+    slot_1 = "tartarn_ingot"
+    slot_3 = "tartarn_ingot"
+    slot_4 = "tartarn_ingot"
+    slot_5 = "tartarn_ingot"
+    slot_6 = "tartarn_ingot"
+    slot_7 = "tartarn_ingot"
+    slot_8 = "tartarn_ingot"
+    slot_9 = "tartarn_ingot"
+    result="tartarn_chestplate" />
 <hr class="recipe-divider">
-<recipe-crafting 
-    slot_1 = "/images/tartarn/ingot.png"
-    slot_2 = "/images/tartarn/ingot.png"
-    slot_3 = "/images/tartarn/ingot.png"
-    slot_4 = "/images/tartarn/ingot.png"
-    slot_6 = "/images/tartarn/ingot.png"
-    slot_7 = "/images/tartarn/ingot.png"
-    slot_9 = "/images/tartarn/ingot.png" 
-    output="/images/tartarn/helmet.png" />
+<recipe-CraftingNew
+    slot_1 = "tartarn_ingot"
+    slot_2 = "tartarn_ingot"
+    slot_3 = "tartarn_ingot"
+    slot_4 = "tartarn_ingot"
+    slot_6 = "tartarn_ingot"
+    slot_7 = "tartarn_ingot"
+    slot_9 = "tartarn_ingot"
+    result="tartarn_leggings" />
 <hr class="recipe-divider">
-<recipe-crafting 
-    slot_4 = "/images/tartarn/ingot.png"
-    slot_6 = "/images/tartarn/ingot.png"
-    slot_7 = "/images/tartarn/ingot.png"
-    slot_9 = "/images/tartarn/ingot.png" 
-    output="/images/tartarn/boots.png" />
+<recipe-CraftingNew
+    slot_4 = "tartarn_ingot"
+    slot_6 = "tartarn_ingot"
+    slot_7 = "tartarn_ingot"
+    slot_9 = "tartarn_ingot"
+    result="tartarn_boots" />
 :::

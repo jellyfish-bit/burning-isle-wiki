@@ -1,5 +1,17 @@
 [
   {
+    "name": "ink_sac",
+    "img": "minecraft/ink_sac"
+  },
+  {
+    "name": "glow_ink_sac",
+    "img": "minecraft/glow_ink_sac"
+  },
+  {
+    "name": "blaze_rod",
+    "img": "minecraft/blaze_rod"
+  },
+  {
     "name": "glass_bottle",
     "img": "minecraft/glass_bottle"
   },
@@ -12,18 +24,78 @@
     "img": "bottle_of_ink"
   },
   {
-    "name": "ink_sac",
-    "img": "minecraft/ink_sac"
+    "name": "tartarn_ingot",
+    "img": "tartarn/ingot"
   },
   {
-    "name": "glow_ink_sac",
-    "img": "minecraft/glow_ink_sac"
+    "name": "tartarn_nugget",
+    "img": "tartarn/nugget"
+  },
+  {
+    "name": "tartarn_chunks",
+    "img": "tartarn/chunks"
   },
   {
     "name": "tartarn_sword",
     "img": "tartarn/sword",
     "damage": 8,
     "speed": 1.7
+  },
+  {
+    "name": "tartarn_axe",
+    "img": "tartarn/axe",
+    "damage": 12,
+    "speed": 0.9
+  },
+  {
+    "name": "tartarn_pickaxe",
+    "img": "tartarn/pickaxe",
+    "damage": 6,
+    "speed": 1.3
+  },
+  {
+    "name": "tartarn_shovel",
+    "img": "tartarn/shovel",
+    "damage": 6.5,
+    "speed": 1.1
+  },
+  {
+    "name": "tartarn_hoe",
+    "img": "tartarn/hoe",
+    "damage": 4,
+    "speed": 2.1
+  },
+  {
+    "name": "tartarn_helmet",
+    "img": "tartarn/helmet",
+    "armor": 3,
+    "armor_thg": 2.5,
+    "knockback": 0.5,
+    "glowing": 1
+  },
+  {
+    "name": "tartarn_chestplate",
+    "img": "tartarn/chestplate",
+    "armor": 8,
+    "armor_thg": 2.5,
+    "knockback": 0.5,
+    "glowing": 1
+  },
+  {
+    "name": "tartarn_leggings",
+    "img": "tartarn/leggings",
+    "armor": 6,
+    "armor_thg": 2.5,
+    "knockback": 0.5,
+    "glowing": 1
+  },
+  {
+    "name": "tartarn_boots",
+    "img": "tartarn/boots",
+    "armor": 3,
+    "armor_thg": 2.5,
+    "knockback": 0.5,
+    "glowing": 1
   },
   {
     "name": "test",

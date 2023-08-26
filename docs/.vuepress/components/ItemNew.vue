@@ -1,6 +1,6 @@
 <template >
     <tooltip-item :item_name="generateName(name)" :attack_damage="damage" :attack_speed="speed" :armor_v="armor"
-    :armor_thougness="thg" :knockback_resistance="knockb" :glowing_v="glowing">
+    :armor_thougness="thg" :knockback_resistance="knockb" :glowing_v="glowing" :xoffset="offset">
       <img :src="img"/>
     </tooltip-item>
 </template>
@@ -11,7 +11,10 @@ import json from "./registry/items.json"
 export default {
   props: {
     name: String,
-
+    offset: {
+      type: Number,
+      default: 0
+    }
   },
   data() {
     return {
@@ -27,7 +30,6 @@ export default {
   },
   created() {
     this.setJsonSource();
-    console.log(this.img + " img logged")
   },
   methods: {
     generateName: function (source) {
@@ -40,9 +42,7 @@ export default {
     },
     setJsonSource() {
         this.myJson.forEach(jsonItem => {
-            console.log(jsonItem.name == this.name)
             if(jsonItem.name == this.name) {
-                console.log(jsonItem.img)
                 this.img = "/burning-isle-wiki/images/" + jsonItem.img + ".png"
                 this.damage = jsonItem.damage
                 this.thg = jsonItem.armor_thg
