@@ -2,19 +2,19 @@
   <div class=crafting-preview>
     <table class="crafting-grid">
       <tr>
-        <td><img v-if="slot_1" :src="slot_1"></td>
-        <td><img v-if="slot_2" :src="slot_2"></td>
-        <td><img v-if="slot_3" :src="slot_3"></td>
+        <td><img v-if="slot_1" :src="addBase(slot_1)"></td>
+        <td><img v-if="slot_2" :src="addBase(slot_2)"></td>
+        <td><img v-if="slot_3" :src="addBase(slot_3)"></td>
       </tr>
       <tr>
-        <td><img v-if="slot_4" :src="slot_4"></td>
-        <td><img v-if="slot_5" :src="slot_5"></td>
-        <td><img v-if="slot_6" :src="slot_6"></td>
+        <td><img v-if="slot_4" :src="addBase(slot_4)"></td>
+        <td><img v-if="slot_5" :src="addBase(slot_5)"></td>
+        <td><img v-if="slot_6" :src="addBase(slot_6)"></td>
       </tr>
       <tr>
-        <td><img v-if="slot_7" :src="slot_7"></td>
-        <td><img v-if="slot_8" :src="slot_8"></td>
-        <td><img v-if="slot_9" :src="slot_9"></td>
+        <td><img v-if="slot_7" :src="addBase(slot_7)"></td>
+        <td><img v-if="slot_8" :src="addBase(slot_8)"></td>
+        <td><img v-if="slot_9" :src="addBase(slot_9)"></td>
       </tr>
     </table>
     <div class=crafting-arrow>&#8594;</div>
@@ -55,8 +55,15 @@ export default {
     output: {
       type: String,
     }
+  },
+  methods: {
+    
+    addBase(img) {
+      return "/burning-isle-wiki" + img;
+    }
   }
 }
+
 </script>
 
 <style scoped>

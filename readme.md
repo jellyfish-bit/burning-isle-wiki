@@ -1,3 +1,3 @@
 # Bruning Isle Wiki
 
-[Wiki](https://github.com/jellyfish-bit/burning-isle-wiki/)
+[Wiki](https://jellyfish-bit.github.io/burning-isle-wiki/)
