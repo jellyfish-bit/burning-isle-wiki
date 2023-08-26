@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import json from "../registry/items.json"
+import json from "./registry/items.json"
 
 export default {
   props: {

@@ -8,13 +8,10 @@
     <div class=crafting-arrow>&#8594;</div>
 
     <img class="crafting-result" width="64px" height="64px" :src="addBase(output)" :alt="output">
-    <button v-on:click="logJson()">NAme</button>
   </div>
 </template>
 
 <script>
-import json from "../../registry/data.json";
-
 export default {
   props: {
     input: {
@@ -24,23 +21,11 @@ export default {
       type: String,
     }
   },
-  data() {
-    return {
-      myJson: json
-    }
-  },
   methods: {
     addBase(img) {
       return "/burning-isle-wiki" + img;
-    },
-    logJson() {
-      this.myJson.forEach(element => {
-        console.log(element.name)
-        console.log(element.img)
-
-      });
     }
-
+  
   }
 }
 </script>
