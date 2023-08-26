@@ -2,23 +2,23 @@
   <div class=crafting-preview>
     <table class="crafting-grid">
       <tr>
-        <td><img v-if="slot_1" :src="addBase(slot_1)"></td>
-        <td><img v-if="slot_2" :src="addBase(slot_2)"></td>
-        <td><img v-if="slot_3" :src="addBase(slot_3)"></td>
+        <td><Item v-if="slot_1" :name="slot_1"/></td>
+        <td><Item v-if="slot_2" :name="slot_2"/></td>
+        <td><Item v-if="slot_3" :name="slot_3"/></td>
       </tr>
       <tr>
-        <td><img v-if="slot_4" :src="addBase(slot_4)"></td>
-        <td><img v-if="slot_5" :src="addBase(slot_5)"></td>
-        <td><img v-if="slot_6" :src="addBase(slot_6)"></td>
+        <td><Item v-if="slot_4" :name="slot_4"/></td>
+        <td><Item v-if="slot_5" :name="slot_5"/></td>
+        <td><Item v-if="slot_6" :name="slot_6"/></td>
       </tr>
       <tr>
-        <td><img v-if="slot_7" :src="addBase(slot_7)"></td>
-        <td><img v-if="slot_8" :src="addBase(slot_8)"></td>
-        <td><img v-if="slot_9" :src="addBase(slot_9)"></td>
+        <td><Item v-if="slot_7" :name="slot_7"/></td>
+        <td><Item v-if="slot_8" :name="slot_8"/></td>
+        <td><Item v-if="slot_9" :name="slot_9"/></td>
       </tr>
     </table>
     <div class=crafting-arrow>&#8594;</div>
-    <img class="crafting-result" width="64px" height="64px" :src="addBase(output)" :alt="output">
+    <Item class="crafting-result" width="64px" height="64px" :name="result" :offset="-100"/>
   </div>
 </template>
   
@@ -52,14 +52,8 @@ export default {
     slot_9: {
       type: String,
     },
-    output: {
+    result: {
       type: String,
-    }
-  },
-  methods: {
-    
-    addBase(img) {
-      return "/burning-isle-wiki" + img;
     }
   }
 }
@@ -73,6 +67,7 @@ export default {
   align-items: center;
   max-width: 519px;
   margin-inline: auto;
+  
 }
 .crafting-arrow {
   color: var(--c-brand);
@@ -90,7 +85,7 @@ export default {
 .crafting-grid {
   border-collapse: collapse;
   border-radius: 10px;
-
+  overflow: visible;
 }
 .crafting-grid tr {
   border: none;

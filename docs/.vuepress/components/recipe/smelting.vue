@@ -1,13 +1,15 @@
 <template>
   <div class="crafting-preview">
     <div class="smelting-input">
-      <img width="48px" height="48px" :src="addBase(input)" :alt="input">
-
-      <icon-fire/>
+      <Item :name="input"/>
+      <tooltip-item v-if="time" :item_name="time + 's'">
+        <icon-fire/>
+      </tooltip-item>
+      <icon-fire v-else/>
     </div>
     <div class=crafting-arrow>&#8594;</div>
 
-    <img class="crafting-result" width="64px" height="64px" :src="addBase(output)" :alt="output">
+    <Item :name="result" :offset="-100"/>
   </div>
 </template>
 
@@ -17,15 +19,10 @@ export default {
     input: {
       type: String,
     },
-    output: {
+    result: {
       type: String,
-    }
-  },
-  methods: {
-    addBase(img) {
-      return "/burning-isle-wiki" + img;
-    }
-  
+    },
+    time: [Number, String]
   }
 }
 </script>
@@ -64,8 +61,8 @@ export default {
 }
 
 .smelting-input img {
-  width: 64px;
-  height: 64px;
+  width: 48px;
+  height: 48px;
   border-radius: 7px
 }
 

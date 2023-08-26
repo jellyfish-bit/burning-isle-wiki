@@ -1,12 +1,12 @@
 # Bottle of Ink 
-<ItemNew name="bottle_of_ink"/>
+<Item name="bottle_of_ink"/>
 Primarly used for making glyphs.
 When drunk it will applie the Blindness Effect.
 <br>
 <br>
 
 # Bottle of Glow Ink
-<ItemNew name="bottle_of_glow_ink"/>
+<Item name="bottle_of_glow_ink"/>
 Primarly used for making glyphs.
 When drunk it will applie the Blindness Effect and Glowing Effect.
 <br>
@@ -15,9 +15,9 @@ When drunk it will applie the Blindness Effect and Glowing Effect.
 # Obataining
 
 ::: details Recipies
-<recipe-CraftingNew slot_1="ink_sac" slot_4="glass_bottle" result="bottle_of_ink"/>
+<recipe-Crafting slot_1="ink_sac" slot_4="glass_bottle" result="bottle_of_ink"/>
 <hr class="recipe-divider">
-<recipe-CraftingNew slot_1="glow_ink_sac" slot_4="glass_bottle" result="bottle_of_glow_ink"/>
+<recipe-Crafting slot_1="glow_ink_sac" slot_4="glass_bottle" result="bottle_of_glow_ink"/>
 
 
 :::
