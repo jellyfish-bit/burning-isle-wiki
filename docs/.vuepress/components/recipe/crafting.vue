@@ -18,7 +18,7 @@
       </tr>
     </table>
     <div class=crafting-arrow>&#8594;</div>
-    <img class="crafting-result" width="64px" height="64px" :src="addbase(output)" :alt="output">
+    <img class="crafting-result" width="64px" height="64px" :src="addBase(output)" :alt="output">
   </div>
 </template>
   
