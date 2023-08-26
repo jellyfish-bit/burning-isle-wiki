@@ -12,7 +12,7 @@ export default defineUserConfig({
   description: 'Documentation for Burning Isle',
   base: "/burning-isle-wiki/",
   theme: defaultTheme({
-    logo: '/images/tartarn/tartarn_sword.png',
+    logo: '/images/tartarn/sword.png',
     repo: 'jellyfish-bit/burning-isle-wiki',
     docsDir: 'docs',
     navbar: [
