@@ -1,0 +1,38 @@
+[
+  {
+    "name": "glass_bottle",
+    "img": "minecraft/glass_bottle"
+  },
+  {
+    "name": "bottle_of_glow_ink",
+    "img": "bottle_of_glow_ink"
+  },
+  {
+    "name": "bottle_of_ink",
+    "img": "bottle_of_ink"
+  },
+  {
+    "name": "ink_sac",
+    "img": "minecraft/ink_sac"
+  },
+  {
+    "name": "glow_ink_sac",
+    "img": "minecraft/glow_ink_sac"
+  },
+  {
+    "name": "tartarn_sword",
+    "img": "tartarn/sword",
+    "damage": 8,
+    "speed": 1.7
+  },
+  {
+    "name": "test",
+    "img": "tartarn/sword",
+    "damage": 8,
+    "speed": 1.7,
+    "armor": 1,
+    "armor_thg": 2,
+    "knockback": 3.6,
+    "glowing": 0.1
+  }
+]

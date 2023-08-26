@@ -40,6 +40,8 @@
 </script>
 
 <style scoped>
+@import url(https://fontlibrary.org//face/minecraftia);
+
 .hover-item {
   position: relative;
   display: inline-block;
@@ -64,12 +66,13 @@
 
     display: none;
     line-height: 18px;
-    margin-left: 64px;
+    margin-left: 16px;
     margin-top: -30px;
     pointer-events: none;
     text-indent: initial;
     /*text-shadow: 2px 2px #3F3F3F;*/
     width: max-content;
+    overflow: visible;
 }
 .hover-preview span {
     direction: ltr;
