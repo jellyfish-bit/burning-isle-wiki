@@ -13,7 +13,7 @@ Primarly used for making Tartarn tools and armor
 Obtainened from breaking Tartarn Clusters
 
 ::: details Recipe
-<recipe-Crafting
+<recipe-crafting
     slot_1 = "tartarn_nugget"
     slot_2 = "tartarn_nugget"
     slot_3 = "tartarn_nugget"
@@ -25,7 +25,7 @@ Obtainened from breaking Tartarn Clusters
     slot_9 = "tartarn_nugget"
     result="tartarn_ingot" />
 <hr class="recipe-divider">
-<recipe-Smelting input="tartarn_chunks" result="tartarn_nugget" time="6"/>
+<recipe-smelting input="tartarn_chunks" result="tartarn_nugget" time="6"/>
 :::
 
 ## Tools
@@ -37,13 +37,13 @@ Obtainened from breaking Tartarn Clusters
 
 
 ::: details Recipe
-<recipe-Crafting 
+<recipe-crafting 
     slot_2 = "tartarn_ingot"
     slot_5 = "tartarn_ingot"
     slot_8 = "blaze_rod"
     result="tartarn_sword" />
 <hr class="recipe-divider">
-<recipe-Crafting 
+<recipe-crafting 
     slot_1 = "tartarn_ingot"
     slot_2 = "tartarn_ingot"
     slot_4 = "tartarn_ingot"
@@ -51,7 +51,7 @@ Obtainened from breaking Tartarn Clusters
     slot_8 = "blaze_rod"
     result="tartarn_axe" />
 <hr class="recipe-divider">
-<recipe-Crafting 
+<recipe-crafting 
     slot_1 = "tartarn_ingot"
     slot_2 = "tartarn_ingot"
     slot_3 = "tartarn_ingot"
@@ -59,13 +59,13 @@ Obtainened from breaking Tartarn Clusters
     slot_8 = "blaze_rod"
     result="tartarn_pickaxe" />
 <hr class="recipe-divider">
-<recipe-Crafting 
+<recipe-crafting 
     slot_2 = "tartarn_ingot"
     slot_5 = "blaze_rod"
     slot_8 = "blaze_rod"
     result="tartarn_shovel" />
 <hr class="recipe-divider">
-<recipe-Crafting 
+<recipe-crafting 
     slot_2 = "tartarn_ingot"
     slot_5 = "blaze_rod"
     slot_8 = "blaze_rod"
@@ -83,7 +83,7 @@ Obtainened from breaking Tartarn Clusters
 A power full armor that increases the effects of spells
 
 ::: details Recipe
-<recipe-Crafting
+<recipe-crafting
     slot_1 = "tartarn_ingot"
     slot_2 = "tartarn_ingot"
     slot_3 = "tartarn_ingot"
@@ -91,7 +91,7 @@ A power full armor that increases the effects of spells
     slot_6 = "tartarn_ingot"
     result="tartarn_helmet" />
 <hr class="recipe-divider">
-<recipe-Crafting
+<recipe-crafting
     slot_1 = "tartarn_ingot"
     slot_3 = "tartarn_ingot"
     slot_4 = "tartarn_ingot"
@@ -102,7 +102,7 @@ A power full armor that increases the effects of spells
     slot_9 = "tartarn_ingot"
     result="tartarn_chestplate" />
 <hr class="recipe-divider">
-<recipe-Crafting
+<recipe-crafting
     slot_1 = "tartarn_ingot"
     slot_2 = "tartarn_ingot"
     slot_3 = "tartarn_ingot"
@@ -112,7 +112,7 @@ A power full armor that increases the effects of spells
     slot_9 = "tartarn_ingot"
     result="tartarn_leggings" />
 <hr class="recipe-divider">
-<recipe-Crafting
+<recipe-crafting
     slot_4 = "tartarn_ingot"
     slot_6 = "tartarn_ingot"
     slot_7 = "tartarn_ingot"

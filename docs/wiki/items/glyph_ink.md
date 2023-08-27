@@ -15,9 +15,9 @@ When drunk it will applie the Blindness Effect and Glowing Effect.
 # Obataining
 
 ::: details Recipies
-<recipe-Crafting slot_1="ink_sac" slot_4="glass_bottle" result="bottle_of_ink"/>
+<recipe-crafting slot_1="ink_sac" slot_4="glass_bottle" result="bottle_of_ink"/>
 <hr class="recipe-divider">
-<recipe-Crafting slot_1="glow_ink_sac" slot_4="glass_bottle" result="bottle_of_glow_ink"/>
+<recipe-crafting slot_1="glow_ink_sac" slot_4="glass_bottle" result="bottle_of_glow_ink"/>
 
 
 :::
