@@ -37,6 +37,34 @@ itemList.set("palistrom_sign", {img: "blocks/palistrom/sign"})
 itemList.set("palistrom_hanging_sign", {img: "blocks/palistrom/hanging_sign"})
 itemList.set("palistrom_wart", {img: "blocks/palistrom/wart"})
 
+itemList.set("palistrom_ring", {img: "palistrom/ring"})
+itemList.set("palistrom_sword", {img: "palistrom/sword", damage:5, att_speed:1.7})
+itemList.set("palistrom_axe", {img: "palistrom/axe", damage:9, att_speed:0.9})
+itemList.set("palistrom_pickaxe", {img: "palistrom/pickaxe", damage:3, att_speed:1.3})
+itemList.set("palistrom_shovel", {img: "palistrom/shovel", damage:3.5, att_speed:1.1})
+itemList.set("palistrom_hoe", {img: "palistrom/hoe", damage:1, att_speed:2.1})
+itemList.set("tarparz_sword", {img: "tarparz/sword", damage:6, att_speed:1.7})
+itemList.set("tarparz_pickaxe", {img: "tarparz/pickaxe", damage:4, att_speed:1.3})
+itemList.set("tarparz_shard", {img: "tarparz/shard"})
+itemList.set("tarparz_pearl", {img: "tarparz/pearl"})
+
+itemList.set("purple_mushroom", {img: "mushroom/purple"})
+itemList.set("golden_mushroom", {img: "mushroom/golden"})
+itemList.set("white_mushroom", {img: "mushroom/white"})
+itemList.set("light_blue_mushroom", {img: "mushroom/light_blue"})
+itemList.set("purple_mushroom_ring", {img: "mushroom/ring/purple", lore: "Turns the Wearer Invisible when taking damage"})
+itemList.set("golden_mushroom_ring", {img: "mushroom/ring/golden", lore: "Makes Piglins Neutral"})
+itemList.set("white_mushroom_ring", {img: "mushroom/ring/white"})
+itemList.set("light_blue_mushroom_ring", {img: "mushroom/ring/light_blue", glowing:2})
+
+
+
+
+
+
+
+
+
 
 itemList.set("test", {
     img: "/minecraft/glass_bottle",

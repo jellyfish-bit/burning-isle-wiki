@@ -1,6 +1,6 @@
 <template >
     <tooltip-item :item_name="generateName()" :attack_damage="getItemSource().damage" :attack_speed="getItemSource().att_speed" :armor_v="getItemSource().armor"
-    :armor_thougness="getItemSource().armor_thg" :knockback_resistance="getItemSource().knockback" :glowing_v="getItemSource().glowing" :xoffset="offset">
+    :armor_thougness="getItemSource().armor_thg" :knockback_resistance="getItemSource().knockback" :glowing_v="getItemSource().glowing" :xoffset="offset" :lore="getItemSource().lore">
       <img :src="getImg()" :width="size" :alt="name + ' is not found'"/>
     </tooltip-item>
 </template>

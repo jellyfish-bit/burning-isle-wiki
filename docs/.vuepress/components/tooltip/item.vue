@@ -9,8 +9,10 @@
             <span v-if="attack_damage" class="dark_green"> {{ attack_damage }} Attack Damage</span>
             <span v-if="attack_speed" class="dark_green"> {{ attack_speed }} Attack Speed</span>
 
-            <br v-if="armor_v || armor_thougness || knockback_resistance || glowing_v">
-            <span v-if="armor_v || armor_thougness || knockback_resistance || glowing_v" class="dark">When in Worn:</span>
+            <br v-if="armor_v || armor_thougness || knockback_resistance || glowing_v || lore">
+            <span v-if="armor_v || armor_thougness || knockback_resistance || glowing_v || lore" class="dark">When Worn:</span>
+
+            <span v-if="lore" class="dark_blue"> {{ lore }}</span>
             <span v-if="armor_v" class="dark_blue"> +{{ armor_v }} Armor</span>
             <span v-if="armor_thougness" class="dark_blue"> +{{ armor_thougness }} Armor Thougness</span>
             <span v-if="knockback_resistance" class="dark_blue"> +{{ knockback_resistance }} Knockback Resistance</span>
@@ -35,6 +37,7 @@
         armor_thougness: [Number, String],
         knockback_resistance: [Number, String],
         glowing_v: [Number, String],
+        lore: [String],
         xoffset: {
           type: Number,
           default: 0
