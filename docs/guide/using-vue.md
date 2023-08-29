@@ -10,5 +10,7 @@ If you are using or demoing components that are not SSR friendly (for example co
 <img src="../../docs/.vuepress/public/images/hero.png">
 
 
+<ItemNew name="glass_bottle"/>
+
 ## Seperator
 

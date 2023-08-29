@@ -1,7 +1,7 @@
 <template >
     <tooltip-item :item_name="generateName(name)" :attack_damage="damage" :attack_speed="speed" :armor_v="armor"
     :armor_thougness="thg" :knockback_resistance="knockb" :glowing_v="glowing" :xoffset="offset">
-      <img :src="img"/>
+      <img :src="img" :width="size"/>
     </tooltip-item>
 </template>
 
@@ -14,6 +14,10 @@ export default {
     offset: {
       type: Number,
       default: 0
+    },
+    size: {
+      type: [Number, String],
+      default: "64"
     }
   },
   data() {

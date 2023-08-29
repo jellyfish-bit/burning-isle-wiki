@@ -29,7 +29,7 @@ export default defineUserConfig({
         link: '/wiki/',
       },
       {
-        text: 'Api',
+        text: 'API',
         link: '/api/',
       }
     ],

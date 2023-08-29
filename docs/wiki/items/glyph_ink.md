@@ -12,7 +12,7 @@ When drunk it will applie the Blindness Effect and Glowing Effect.
 <br>
 <br>
 
-# Obataining
+# Obtaining
 
 ::: details Recipies
 <recipe-crafting slot_1="ink_sac" slot_4="glass_bottle" result="bottle_of_ink"/>

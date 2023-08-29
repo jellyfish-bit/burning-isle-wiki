@@ -18,7 +18,10 @@
       </tr>
     </table>
     <div class=crafting-arrow>&#8594;</div>
-    <Item class="crafting-result" width="64px" height="64px" :name="result" :offset="-100"/>
+    <tooltip-count v-if="amount" :count="amount">
+      <Item class="crafting-result" width="64px" height="64px" :name="result" :offset="-100"/>
+    </tooltip-count>
+    <Item v-else class="crafting-result" width="64px" height="64px" :name="result" :offset="-100"/>
   </div>
 </template>
   
@@ -54,6 +57,9 @@ export default {
     },
     result: {
       type: String,
+    },
+    amount: {
+      type: [String, Number]
     }
   }
 }

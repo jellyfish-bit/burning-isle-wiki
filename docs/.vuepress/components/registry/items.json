@@ -4,6 +4,10 @@
     "img": "minecraft/ink_sac"
   },
   {
+    "name": "stick",
+    "img": "minecraft/stick"
+  },
+  {
     "name": "glow_ink_sac",
     "img": "minecraft/glow_ink_sac"
   },
@@ -106,5 +110,69 @@
     "armor_thg": 2,
     "knockback": 3.6,
     "glowing": 0.1
+  },
+  {
+    "name": "palistrom_planks",
+    "img": "blocks/palistrom/planks"
+  },
+  {
+    "name": "palistrom_slab",
+    "img": "blocks/palistrom/slab"
+  },
+  {
+    "name": "palistrom_stair",
+    "img": "blocks/palistrom/stair"
+  },
+  {
+    "name": "palistrom_button",
+    "img": "blocks/palistrom/button"
+  },
+  {
+    "name": "palistrom_wart",
+    "img": "blocks/palistrom/wart"
+  },
+  {
+    "name": "palistrom_trapdoor",
+    "img": "blocks/palistrom/trapdoor"
+  },
+  {
+    "name": "palistrom_stem",
+    "img": "blocks/palistrom/stem"
+  },
+  {
+    "name": "palistrom_hyphae",
+    "img": "blocks/palistrom/hyphae"
+  },
+  {
+    "name": "stripped_palistrom_hyphae",
+    "img": "blocks/palistrom/stripped_hyphae"
+  },
+  {
+    "name": "stripped_palistrom_stem",
+    "img": "blocks/palistrom/stripped_stem"
+  },
+  {
+    "name": "palistrom_fence",
+    "img": "blocks/palistrom/fence"
+  },
+  {
+    "name": "palistrom_fence_gate",
+    "img": "blocks/palistrom/fence_gate"
+  },
+  {
+    "name": "palistrom_door",
+    "img": "blocks/palistrom/door"
+  },
+  {
+    "name": "palistrom_pressure_plate",
+    "img": "blocks/palistrom/pressure_plate"
+  },
+  {
+    "name": "palistrom_sign",
+    "img": "blocks/palistrom/sign"
+  },
+  {
+    "name": "palistrom_hanging_sign",
+    "img": "blocks/palistrom/hanging_sign"
   }
 ]

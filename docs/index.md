@@ -12,10 +12,10 @@ actions:
     type: secondary
 xfeatures:
 - title: Getting Started
-  details: Feature 1 Description
+  details: A quick quide for getting started and cast your first spell.
   link: /guide/
 - title: Wiki
-  details: The Wiki
+  details: The Wiki where a short decription of all Items, Blocks, ... can be found
   link: /wiki/
 - title: API
   details: Lorem ipsum
