@@ -9,8 +9,9 @@ If you are using or demoing components that are not SSR friendly (for example co
 ## HH
 <img src="../../docs/.vuepress/public/images/hero.png">
 
+<recipe-crafting slot_1="ink_sac" slot_4="glass_bottle" result="bottle_of_ink"/>
 
-<ItemNew name="glass_bottle"/>
+<Item name="glass_bottles"/>
 
 ## Seperator
 
