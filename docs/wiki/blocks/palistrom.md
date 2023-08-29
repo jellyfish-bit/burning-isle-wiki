@@ -78,7 +78,7 @@ Palisrom Wood is generaly found in the nether. It is a fireresitance light emmit
     slot_5="palistrom_planks" 
     slot_7="palistrom_planks" 
     slot_8="palistrom_planks" 
-    result="palsitrom_door" amount="3"/>
+    result="palistrom_door" amount="3"/>
 
 <hr class="recipe-divider">
 
@@ -89,7 +89,7 @@ Palisrom Wood is generaly found in the nether. It is a fireresitance light emmit
     slot_7="palistrom_planks" 
     slot_8="palistrom_planks" 
     slot_9="palistrom_planks" 
-    result="palsitrom_trapdoor" amount="2"/>
+    result="palistrom_trapdoor" amount="2"/>
 
 <hr class="recipe-divider">
 <recipe-crafting 
@@ -99,7 +99,7 @@ Palisrom Wood is generaly found in the nether. It is a fireresitance light emmit
     slot_7="palistrom_planks" 
     slot_8="stick" 
     slot_9="palistrom_planks" 
-    result="palsitrom_fence" amount="3"/>
+    result="palistrom_fence" amount="3"/>
 
 <hr class="recipe-divider">
 
@@ -110,20 +110,20 @@ Palisrom Wood is generaly found in the nether. It is a fireresitance light emmit
     slot_7="stick" 
     slot_8="palistrom_planks" 
     slot_9="stick" 
-    result="palsitrom_fence_gate"/>
+    result="palistrom_fence_gate"/>
 
 <hr class="recipe-divider">
 
 <recipe-crafting 
     slot_5="palistrom_planks" 
-    result="palsitrom_button"/>
+    result="palistrom_button"/>
 
 <hr class="recipe-divider">
 
 <recipe-crafting 
     slot_4="palistrom_planks" 
     slot_5="palistrom_planks" 
-    result="palsitrom_pressure_plate"/>
+    result="palistrom_pressure_plate"/>
 
 <recipe-crafting 
     slot_1="palistrom_planks" 
@@ -133,7 +133,7 @@ Palisrom Wood is generaly found in the nether. It is a fireresitance light emmit
     slot_5="palistrom_planks" 
     slot_6="palistrom_planks"
     slot_8="stick" 
-    result="palsitrom_sign" count="3"/>
+    result="palistrom_sign" count="3"/>
 
 <recipe-crafting 
     slot_1="chain" 
@@ -144,7 +144,7 @@ Palisrom Wood is generaly found in the nether. It is a fireresitance light emmit
     slot_7="palistrom_stem"
     slot_8="palistrom_stem"
     slot_9="palistrom_stem" 
-    result="palsitrom_hanging_sign" count="6"/>
+    result="palistrom_hanging_sign" count="6"/>
 :::
 
 
