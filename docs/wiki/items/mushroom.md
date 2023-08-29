@@ -5,6 +5,7 @@ Four rare mushrooms exist
 <Item name="golden_mushroom"/>
 <Item name="light_blue_mushroom"/>
 <Item name="white_mushroom" style="margin-left: 50px"/>
+See also [Golden Mushroom](../world/mushroom.md)
 
 # Rings
 For each Mushroom there is one Ring with unique powers. And then there is the White Mushroom Ring to rule them all.<br>

@@ -19,7 +19,7 @@ itemList.set("tartarn_hoe", {img: "tartarn/hoe", damage: 4, att_speed: 2.1})
 itemList.set("tartarn_helmet", {img: "tartarn/helmet", armor: 3, armor_thg: 2.5, knockback: 0.5, glwoing: 1})
 itemList.set("tartarn_chestplate", {img: "tartarn/chestplate", armor: 8, armor_thg: 2.5, knockback: 0.5, glwoing: 1})
 itemList.set("tartarn_leggings", {img: "tartarn/leggings", armor: 6, armor_thg: 2.5, knockback: 0.5, glwoing: 1})
-itemList.set("taratrn_boots", {img: "tartarn/boots", armor: 3, armor_thg: 2.5, knockback: 0.5, glwoing: 1})
+itemList.set("tartarn_boots", {img: "tartarn/boots", armor: 3, armor_thg: 2.5, knockback: 0.5, glwoing: 1})
 itemList.set("palistrom_planks", {img: "blocks/palistrom/planks"})
 itemList.set("palistrom_slab", {img: "blocks/palistrom/slab"})
 itemList.set("palistrom_stair", {img: "blocks/palistrom/stair"})
@@ -57,12 +57,17 @@ itemList.set("golden_mushroom_ring", {img: "mushroom/ring/golden", lore: "Makes 
 itemList.set("white_mushroom_ring", {img: "mushroom/ring/white"})
 itemList.set("light_blue_mushroom_ring", {img: "mushroom/ring/light_blue", glowing:2})
 
+itemList.set("golden_mushroom_block", {img: "blocks/mushroom/golden"})
+itemList.set("mushroom_stem", {img: "blocks/mushroom/stem"})
 
+itemList.set("budding_tarparz_block", {img: "blocks/tarparz/budding"})
+itemList.set("tarparz_block", {img: "blocks/tarparz/block"})
 
-
-
-
-
+itemList.set("tartarn_block", {img: "blocks/tartarn/block"})
+itemList.set("mauveine_nylium", {img: "blocks/mauveine/nylium"})
+itemList.set("ochre_froglight", {img: "blocks/froglight/ochre"})
+itemList.set("verdant_froglight", {img: "blocks/froglight/verdant"})
+itemList.set("pearlescent_froglight", {img: "blocks/froglight/pearlescent"})
 
 
 

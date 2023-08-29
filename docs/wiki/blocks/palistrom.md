@@ -147,6 +147,11 @@ Palisrom Wood is generaly found in the nether. It is a fireresitance light emmit
     result="palistrom_hanging_sign" count="6"/>
 :::
 
+# Palistrom Wart
+<Item name="palistrom_wart"/> Can be found on Palistrom Fungi.
+See also [Palsitrom Fungus](../world/palistrom.md)
+
+
 See also [Palsitrom Items](../items/palistrom.md)
 
 
