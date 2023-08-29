@@ -5,6 +5,7 @@ itemList.set("ink_sac", {img: "/minecraft/ink_sac"});
 itemList.set("glow_ink_sac", {img: "/minecraft/glow_ink_sac"})
 itemList.set("blaze_rod", {img: "/minecraft/blaze_rod"})
 itemList.set("glass_bottle", {img: "/minecraft/glass_bottle"})
+itemList.set("chain", {img: "/minecraft/chain"})
 itemList.set("bottle_of_ink", {img: "/bottle_of_ink"})
 itemList.set("bottle_of_glow_ink", {img: "/bottle_of_glow_ink"})
 itemList.set("tartarn_ingot", {img: "tartarn/ingot"})

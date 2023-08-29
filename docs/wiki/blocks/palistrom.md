@@ -137,7 +137,7 @@ Palisrom Wood is generaly found in the nether. It is a fireresitance light emmit
 
 <recipe-crafting 
     slot_1="chain" 
-    slot_2="chain" 
+    slot_3="chain" 
     slot_4="palistrom_stem" 
     slot_5="palistrom_stem" 
     slot_6="palistrom_stem" 
