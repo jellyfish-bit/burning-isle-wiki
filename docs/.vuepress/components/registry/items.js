@@ -47,6 +47,10 @@ itemList.set("tarparz_sword", {img: "tarparz/sword", damage:6, att_speed:1.7})
 itemList.set("tarparz_pickaxe", {img: "tarparz/pickaxe", damage:4, att_speed:1.3})
 itemList.set("tarparz_shard", {img: "tarparz/shard"})
 itemList.set("tarparz_pearl", {img: "tarparz/pearl"})
+itemList.set("tartarn_pearl", {img: "tartarn/pearl"})
+itemList.set("tarparz_necklace", {img: "tarparz/necklace", lore:"Causes Blazes to drop more Blaze Rods"})
+itemList.set("tartarn_necklace", {img: "tartarn/necklace", lore:"Attracts Magmatic Fireflies", glowing:1})
+
 
 itemList.set("purple_mushroom", {img: "mushroom/purple"})
 itemList.set("golden_mushroom", {img: "mushroom/golden"})

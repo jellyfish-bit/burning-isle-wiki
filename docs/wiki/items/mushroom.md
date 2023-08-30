@@ -15,6 +15,9 @@ See also [Palistrom Ring](./palistrom.md#ring)
 <Item name="golden_mushroom_ring"/>
 <Item name="light_blue_mushroom_ring"/>
 <Item name="white_mushroom_ring" style="margin-left: 50px"/>
+::: tip Info
+[Curios](https://docs.illusivesoulworks.com/category/curios) is required for Rings to work
+:::
 
 ::: details Recipe
 <recipe-crafting slot_2="purple_mushroom" slot_5="palistrom_ring" result="purple_mushroom_ring"/>
