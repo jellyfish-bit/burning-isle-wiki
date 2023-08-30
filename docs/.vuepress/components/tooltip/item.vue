@@ -4,13 +4,13 @@
             <span class="white">{{ item_name }}</span>
 
             <br v-if="attack_damage || attack_speed">
-            <span v-if="attack_damage || attack_speed" class="dark">When in Main Hand:</span>
+            <span v-if="attack_damage || attack_speed" class="gray">When in Main Hand:</span>
           
             <span v-if="attack_damage" class="dark_green"> {{ attack_damage }} Attack Damage</span>
             <span v-if="attack_speed" class="dark_green"> {{ attack_speed }} Attack Speed</span>
 
             <br v-if="armor_v || armor_thougness || knockback_resistance || glowing_v || lore">
-            <span v-if="armor_v || armor_thougness || knockback_resistance || glowing_v || lore" class="dark">When Worn:</span>
+            <span v-if="armor_v || armor_thougness || knockback_resistance || glowing_v || lore" class="gray">When Worn:</span>
 
             <span v-if="lore" class="dark_blue"> {{ lore }}</span>
             <span v-if="armor_v" class="dark_blue"> +{{ armor_v }} Armor</span>
@@ -90,10 +90,6 @@
 }
 .hover-item:hover .hover-preview {
     display: block;
-}
-
-.dark_gray {
-  color: #555555;
 }
 .dark_blue {
   color: #5555FF;
