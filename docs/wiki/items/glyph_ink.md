@@ -1,16 +1,24 @@
 # Bottle of Ink 
-<Item name="bottle_of_ink"/>
-Primarly used for making glyphs.
-When drunk it will applie the Blindness Effect.
-<br>
-<br>
+
+<ImgInfo>
+  <template v-slot:img>
+    <Item name="bottle_of_ink"/>
+  </template>
+  <template v-slot:info>
+    Primarly used for making glyphs. When drunk it will applie the Blindness Effect.
+  </template>
+</ImgInfo>
 
 # Bottle of Glow Ink
-<Item name="bottle_of_glow_ink"/>
-Primarly used for making glyphs.
-When drunk it will applie the Blindness Effect and Glowing Effect.
-<br>
-<br>
+
+<ImgInfo>
+  <template v-slot:img>
+    <Item name="bottle_of_glow_ink"/>
+  </template>
+  <template v-slot:info>
+    Primarly used for making glyphs. When drunk it will applie the Blindness Effect and Glowing Effect.
+  </template>
+</ImgInfo>
 
 # Obtaining
 

@@ -1,7 +1,9 @@
 <template >
     <tooltip-item :item_name="generateName()" :attack_damage="getItemSource().damage" :attack_speed="getItemSource().att_speed" :armor_v="getItemSource().armor"
-    :armor_thougness="getItemSource().armor_thg" :knockback_resistance="getItemSource().knockback" :glowing_v="getItemSource().glowing" :xoffset="offset" :lore="getItemSource().lore">
-      <img :src="getImg()" :width="size" :alt="name + ' is not found'"/>
+    :armor_thougness="getItemSource().armor_thg" :knockback_resistance="getItemSource().knockback"
+     :glowing_v="getItemSource().glowing" :lore="getItemSource().lore"
+     :img_size="size" :xoffset="offset" >
+      <img :src="getImg()" class="item-img" :alt="name + ' is not found'"/>
     </tooltip-item>
 </template>
 
@@ -16,7 +18,7 @@ export default {
       default: 0
     },
     size: {
-      type: [Number, String],
+      type: [String, Number],
       default: "64"
     }
   },
@@ -42,3 +44,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+ .item-img {
+  width: v-bind(size);
+  height: v-bind(size);
+ }
+</style>

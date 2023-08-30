@@ -36,8 +36,8 @@
 .hover-item {
   position: relative;
   display: inline-block;
-  width: 64px;
   padding: 5px;
+  width: 64px;
 }
 .hover-item .hover-preview {
     bottom: -1.6em;

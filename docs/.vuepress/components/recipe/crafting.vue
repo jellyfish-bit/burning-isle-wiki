@@ -2,19 +2,19 @@
   <div class=crafting-preview>
     <table class="crafting-grid">
       <tr>
-        <td><Item v-if="slot_1" :name="slot_1"/></td>
-        <td><Item v-if="slot_2" :name="slot_2"/></td>
-        <td><Item v-if="slot_3" :name="slot_3"/></td>
+        <td><Item v-if="slot_1" :name="slot_1" :size="32" /></td>
+        <td><Item v-if="slot_2" :name="slot_2" :size="32" /></td>
+        <td><Item v-if="slot_3" :name="slot_3" :size="32" /></td>
       </tr>
       <tr>
-        <td><Item v-if="slot_4" :name="slot_4"/></td>
+        <td><Item v-if="slot_4" :name="slot_4" :size="32" /></td>
         <td><Item v-if="slot_5" :name="slot_5"/></td>
         <td><Item v-if="slot_6" :name="slot_6"/></td>
       </tr>
       <tr>
-        <td><Item v-if="slot_7" :name="slot_7"/></td>
-        <td><Item v-if="slot_8" :name="slot_8"/></td>
-        <td><Item v-if="slot_9" :name="slot_9"/></td>
+        <td><Item v-if="slot_7" :name="slot_7" :size="32" /></td>
+        <td><Item v-if="slot_8" :name="slot_8" :size="32" /></td>
+        <td><Item v-if="slot_9" :name="slot_9" :size="32" /></td>
       </tr>
     </table>
     <div class=crafting-arrow>&#8594;</div>

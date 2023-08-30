@@ -40,10 +40,8 @@ export default defineUserConfig({
           children: [
             "/wiki/items",
             "/wiki/blocks",
+            "/wiki/entities",
             "/wiki/world"
-            //["/wiki/items/", "Items"]
-            //["/wiki/blocks/", "Blocks"],
-            //["/wiki/world/", "World"]
           ],
           sidebarDepth: 2
         }
@@ -64,7 +62,7 @@ export default defineUserConfig({
   plugins: [
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
-    }),
+    })
   ]
 })
 

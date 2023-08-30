@@ -1,2 +1,2 @@
 # Entites
-[Magmatic Fireflies](firefly.md)
+* [Magmatic Fireflies](firefly.md)

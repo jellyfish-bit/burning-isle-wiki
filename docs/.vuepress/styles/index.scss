@@ -9,4 +9,23 @@
 .recipe-divider {
   border-top: 1px solid var(--c-bg) !important;
 }
+.custom-group .code-group {
+  background-color: var(--c-tip-bg);
+  border-radius: 6px;
+}
+.custom-group .code-group__nav {
+  background-color: var(--c-tip-bg);
+  border-radius: 6px;
+}
+.custom-group .code-group-item {
+  padding-inline: 10px;
+}
+.custom-group .code-group__nav-tab {
+  color: var(--c-tip-title)
+}
+.custom-group .group-padding {
+  padding-top: 20px;
+  padding-inline: 15px;
+  padding-bottom: 10px;
+}
 
