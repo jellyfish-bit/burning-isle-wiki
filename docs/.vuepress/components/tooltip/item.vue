@@ -43,7 +43,7 @@ export default {
     },
     img_size: {
       type: [Number, String],
-      default: 64
+      default: "unset"
     }
   }
 }
@@ -54,7 +54,7 @@ export default {
 
 .hover-item {
   position: relative;
-  display: block;
+  display: inline-block;
   width: v-bind(img_size + "px");
   height: v-bind(img_size + "px");
 }
@@ -117,4 +117,5 @@ export default {
 
 .gray {
   color: #AAAAAA;
-}</style>
+}
+</style>
