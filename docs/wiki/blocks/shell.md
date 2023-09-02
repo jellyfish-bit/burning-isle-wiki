@@ -11,18 +11,18 @@ In the Basalt Deltas, an intriguing variety of shells awaits discovery, distingu
 
 ::: code-group-item Open
 <div class="code-group-box">
-<tooltip-item item_name="Big Magmatic Shell"><img src="../../assets/shell/open.png" width="64" class="group-padding"></tooltip-item>
-<tooltip-item item_name="Medium Magmatic Shell"><img src="../../assets/shell/open.png" width="56" class="group-padding"></tooltip-item>
-<tooltip-item item_name="Small Magmatic Shell"><img src="../../assets/shell/open.png" width="48" class="group-padding"></tooltip-item>
-<tooltip-item item_name="Very Small Magmatic Shell"><img src="../../assets/shell/open.png" width="40" class="group-padding"></tooltip-item>
+<tooltip-item item_name="Big Magmatic Shell"><img src="../../assets/shell/open.png" width="64" class="group-padding" loading="lazy"></tooltip-item>
+<tooltip-item item_name="Medium Magmatic Shell"><img src="../../assets/shell/open.png" width="56" class="group-padding" loading="lazy"></tooltip-item>
+<tooltip-item item_name="Small Magmatic Shell"><img src="../../assets/shell/open.png" width="48" class="group-padding" loading="lazy"></tooltip-item>
+<tooltip-item item_name="Very Small Magmatic Shell"><img src="../../assets/shell/open.png" width="40" class="group-padding" loading="lazy"></tooltip-item>
 </div>
 
 :::
 ::: code-group-item Closed
-<tooltip-item item_name="Big Magmatic Shell"><img src="../../assets/shell/normal.png" width="64" class="group-padding"></tooltip-item>
-<tooltip-item item_name="Medium Magmatic Shell"><img src="../../assets/shell/normal.png" width="56" class="group-padding"></tooltip-item>
-<tooltip-item item_name="Small Magmatic Shell"><img src="../../assets/shell/normal.png" width="48" class="group-padding"></tooltip-item>
-<tooltip-item item_name="Very Small Magmatic Shell"><img src="../../assets/shell/normal.png" width="40" class="group-padding"></tooltip-item>
+<tooltip-item item_name="Big Magmatic Shell"><img src="../../assets/shell/normal.png" width="64" class="group-padding" loading="lazy"></tooltip-item>
+<tooltip-item item_name="Medium Magmatic Shell"><img src="../../assets/shell/normal.png" width="56" class="group-padding" loading="lazy"></tooltip-item>
+<tooltip-item item_name="Small Magmatic Shell"><img src="../../assets/shell/normal.png" width="48" class="group-padding" loading="lazy"></tooltip-item>
+<tooltip-item item_name="Very Small Magmatic Shell" loading="lazy"><img src="../../assets/shell/normal.png" width="40" class="group-padding"></tooltip-item>
 :::
 ::::
 

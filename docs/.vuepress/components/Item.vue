@@ -3,7 +3,7 @@
     :armor_thougness="getItemSource().armor_thg" :knockback_resistance="getItemSource().knockback"
      :glowing_v="getItemSource().glowing" :lore="getItemSource().lore"
      :img_size="size" :xoffset="offset" >
-      <img :src="getImg()" class="item-img" :alt="name + ' is not found'"/>
+      <img :src="getImg()" class="item-img" :alt="name + ' is not found'" loading="lazy"/>
     </tooltip-item>
 </template>
 
