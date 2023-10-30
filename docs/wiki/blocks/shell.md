@@ -28,3 +28,6 @@ In the Basalt Deltas, an intriguing variety of shells awaits discovery, distingu
 
  Beyond their role as treasure troves, these shells also serve as the habitat for [Magmatic Fireflies](../entities/firefly.md).
 
+::: tip Magmatic Firefly Food Item
+The vermy small Magmatic shell is Food for all [Magmatic Fireflies](../entities/firefly.md#magmatic-firefly)
+:::

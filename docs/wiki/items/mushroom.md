@@ -29,3 +29,7 @@ See also [Palistrom Ring](./palistrom.md#ring)
 <recipe-crafting slot_2="white_mushroom" slot_5="palistrom_ring" result="white_mushroom_ring"/>
 
 :::
+
+::: tip Magmatic Firefly Food Item
+The golden Mushroom is Food for all [Magmatic Fireflies](../entities/firefly.md#magmatic-firefly)
+:::
