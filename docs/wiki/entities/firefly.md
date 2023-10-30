@@ -72,8 +72,8 @@ These mesmerizing beings hold another secret – a penchant for seeking out [Mag
 | Item | Color | Effect |
 | ------------- | ------------- | -------- |
 | Dye  | Color of the Dye  | none |
-| Palistrom Fungus | <span style="color: #DAA300"> Gold </span> | none |
-| [Golden Mushroom](../items/mushroom.md#mushrooms) | <span style="color: #FED83D"> Yellow </span> | none |
+| Palistrom Fungus | <span style="color: #DAA300"> Gold </span> | Food Item |
+| [Golden Mushroom](../items/mushroom.md#mushrooms) | <span style="color: #FED83D"> Yellow </span> | Food Item |
 | [Purple Mushroom](../items/mushroom.md#mushrooms) | <span style="color: #8932B8"> Purple </span> | none |
 | [White Mushroom](../items/mushroom.md#mushrooms) | <span style="color: #F9FFFE"> White </span> | none |
 | [Light Blue Mushroom](../items/mushroom.md#mushrooms) | <span style="color: #3AB3DA"> Ligh Blue </span> | none |
@@ -82,14 +82,16 @@ These mesmerizing beings hold another secret – a penchant for seeking out [Mag
 | [Very Small Magmatic Shell](../blocks/shell.md#magmatic-shells) | <span style="color: #9D9D97"> Gray </span> | none |
 | Nether Wart | <span style="color: #B02E26"> Crimson </span> | none |
 | Crimson Roots | <span style="color: #B02E26"> Crimson </span> | none |
-| Crimson Fungus | <span style="color: #B02E26"> Crimson </span> | none |
+| Crimson Fungus | <span style="color: #B02E26"> Crimson </span> | Food Item |
 | Warped Roots | <span style="color: #169C9C"> Cyan </span> | none |
-| Warped Fungus | <span style="color: #169C9C"> Cyan </span> |none |
-| Warped Fungus On a Stick | <span style="color: #169C9C"> Cyan </span> | Removes th Fungus |
+| Warped Fungus | <span style="color: #169C9C"> Cyan </span> | Food Item |
+| Warped Fungus On a Stick | <span style="color: #169C9C"> Cyan </span> | Removes the Fungus |
 | Potion | Color of the Potion | Effect of the Potion |
 | Water Bottle | none | Removes any Color changes |
 | Whiter Rose | <span style="color: #1D1D21"> Black </span> | Applies the wither effect |
 | Chorus Fruit | <span style="color: #F38BAA"> Pink </span> | Randomly Teleports the Firefly away |
+| Golden Apple | <span style="color: #ECCB45"> Gold </span> | Applies the Golden Apple Effect |
+
 
 :::
 
