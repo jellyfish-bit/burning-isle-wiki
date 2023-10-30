@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-0fea5f4a","path":"/wiki/world/palistrom.html","title":"Palistrom Fungus","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1693624330000,"contributors":[{"name":"jellyfish-bit","email":"lego_master@web.de","commits":2}]},"filePathRelative":"wiki/world/palistrom.md"}');export{t as data};

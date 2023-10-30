@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-fffb8e28","path":"/guide/","title":"Introduction","lang":"en-US","frontmatter":{"footer":"fasle"},"headers":[],"git":{"updatedTime":1692990285000,"contributors":[{"name":"XcraX1","email":"lego_master@web.de","commits":1},{"name":"jellyfish-bit","email":"lego_master@web.de","commits":1}]},"filePathRelative":"guide/README.md"}');export{e as data};
