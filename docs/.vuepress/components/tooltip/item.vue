@@ -91,7 +91,7 @@ export default {
 .hover-preview span {
   direction: ltr;
   display: block;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
   text-align: left;
   overflow: visible;
 }

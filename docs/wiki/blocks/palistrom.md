@@ -154,5 +154,12 @@ See also [Palsitrom Fungus](../world/palistrom.md)
 
 See also [Palsitrom Items](../items/palistrom.md)
 
+# Palistrom Fungus
+<Item name="palistrom_fungus"/> The small varient of a [Palsitrom Fungus](../world/palistrom.md).
+
+::: tip Magmatic Firefly Food Item
+Palistrom Fungi are Food for all [Magmatic Fireflies](../entities/firefly.md#magmatic-firefly)
+:::
+
 
 
