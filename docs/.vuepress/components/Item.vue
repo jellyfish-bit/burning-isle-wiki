@@ -33,7 +33,7 @@ export default {
     },
     getItemSource: function () {
       const item = itemList.get(this.name);
-      if(item != undefined) {
+      if(item !== undefined) {
         return item
       }
       return {img: "minecraft/missing"};  

@@ -26,7 +26,10 @@
 </template>
   
 <script>
+import Item from "../Item.vue";
+
 export default {
+  components: {Item},
   props: {
     slot_1: {
       type: String,

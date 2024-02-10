@@ -17,7 +17,7 @@ If you are using or demoing components that are not SSR friendly (for example co
 
 <ImgInfo>
   <template v-slot:img>
-    <Item name="glass_bottle"/>
+    <Item name="test"/>
   </template>
   <template v-slot:info>
     A really lon text with some important info, you dont want ot miss.

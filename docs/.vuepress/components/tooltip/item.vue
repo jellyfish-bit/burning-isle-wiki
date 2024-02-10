@@ -63,7 +63,7 @@ export default {
   bottom: -1.6em;
   left: v-bind(xoffset + "px");
   position: absolute;
-  font-family: "Minecraftia";
+  font-family: "Minecraftia", serif;
 
   font-size: 100%;
   padding: 1px 5px 2px 5px;
