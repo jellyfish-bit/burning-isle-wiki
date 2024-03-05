@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-fcc16244","path":"/wiki/world/mushroom.html","title":"Golden Mushroom","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1693624330000,"contributors":[{"name":"jellyfish-bit","email":"lego_master@web.de","commits":2}]},"filePathRelative":"wiki/world/mushroom.md"}');export{e as data};

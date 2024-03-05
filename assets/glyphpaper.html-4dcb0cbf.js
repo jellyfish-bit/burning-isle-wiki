@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2769dd78","path":"/wiki/items/glyphpaper.html","title":"Glyph Paper","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1692944419000,"contributors":[{"name":"jellyfish-bit","email":"lego_master@web.de","commits":1}]},"filePathRelative":"wiki/items/glyphpaper.md"}');export{e as data};

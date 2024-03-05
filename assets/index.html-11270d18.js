@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-c1c839d6","path":"/wiki/items/","title":"Items","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1693522204000,"contributors":[{"name":"XcraX1","email":"lego_master@web.de","commits":2},{"name":"jellyfish-bit","email":"lego_master@web.de","commits":2}]},"filePathRelative":"wiki/items/index.md"}');export{e as data};

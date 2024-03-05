@@ -1,0 +1,1 @@
+import{_ as n,o as t,c as _,a as s,g as o}from"./app-94e3bae8.js";const c={},a={class:"container"},d={class:"img"},i={class:"info"};function r(e,f){return t(),_("div",a,[s("div",d,[o(e.$slots,"img",{},void 0,!0)]),s("div",i,[o(e.$slots,"info",{class:"info"},void 0,!0)])])}const u=n(c,[["render",r],["__scopeId","data-v-7396eb16"],["__file","ImgInfo.vue"]]);export{u as default};

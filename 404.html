@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.66">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Burning Isle</title><meta name="description" content="Documentation for Burning Isle">
+    <link rel="preload" href="/burning-isle-wiki/assets/style-f51269d5.css" as="style"><link rel="stylesheet" href="/burning-isle-wiki/assets/style-f51269d5.css">
+    <link rel="modulepreload" href="/burning-isle-wiki/assets/app-94e3bae8.js"><link rel="modulepreload" href="/burning-isle-wiki/assets/404.html-1f3d1ae3.js"><link rel="modulepreload" href="/burning-isle-wiki/assets/404.html-60b35caa.js"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-b727c5e7.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-08586e04.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-f2490d6c.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/using-vue.html-7c14b6ea.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-3ba6cd41.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/otherinfo.html-001db9f2.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-8a5a77e7.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/palistrom.html-37498fc5.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/shell.html-e5af3765.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/firefly.html-b805baa5.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-e1e0128e.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/glyph_ink.html-951793be.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/glyphpaper.html-4dcb0cbf.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-11270d18.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/mushroom.html-e42f8b1c.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/palistrom.html-d5408e74.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/pearls.html-2d8de89d.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/tarparz.html-3e993834.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/tartarn.html-af52d6fe.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-e33548ae.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/mushroom.html-eb73e7a8.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/palistrom.html-0d0a5299.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-4f007096.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-260aa117.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-94f50ac7.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/using-vue.html-3854f4ef.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-08e9111c.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/otherinfo.html-15e2b98e.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-96114ac1.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/palistrom.html-3e92ad63.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/shell.html-a9c10641.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/firefly.html-645e7c9b.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-74ebdea0.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/glyph_ink.html-6328c06b.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/glyphpaper.html-1f0ad7ea.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-a8078c10.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/mushroom.html-7b8b908e.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/palistrom.html-66f61966.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/pearls.html-5e8fd0e2.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/tarparz.html-9feb1233.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/tartarn.html-6694d9fe.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/index.html-f4d30472.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/mushroom.html-525c1a9e.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/palistrom.html-5134c2ec.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/ImgInfo-6f04a4c7.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/Item-50f25f4f.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/fire-27d9bdd9.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/crafting-d21b3892.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/smelting-45405f4c.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/smithing-50085551.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/count-47c56d7d.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/firefly-a4cb13de.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/item-c92dc7fa.js" as="script"><link rel="prefetch" href="/burning-isle-wiki/assets/smithing-9f505e93.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a href="/burning-isle-wiki/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/burning-isle-wiki/assets/app-94e3bae8.js" defer></script>
+  </body>
+</html>
