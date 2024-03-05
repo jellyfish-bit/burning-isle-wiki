@@ -1,10 +1,16 @@
 <template >
-    <tooltip-item :item_name="generateName()" :attack_damage="getItemSource().damage" :attack_speed="getItemSource().att_speed" :armor_v="getItemSource().armor"
+    <tooltip-item v-if="getType() == 'normal'" :item_name="generateName()" :attack_damage="getItemSource().damage" :attack_speed="getItemSource().att_speed" :armor_v="getItemSource().armor"
     :armor_thougness="getItemSource().armor_thg" :knockback_resistance="getItemSource().knockback"
      :glowing_v="getItemSource().glowing" :lore="getItemSource().lore"
      :img_size="size" :xoffset="offset" >
       <img :src="getImg()" class="item-img" :alt="name + ' is not found'"/>
     </tooltip-item>
+
+    <tooltip-smithing v-if="getType() == 'smithing'" :item_name="generateName()" :description="getItemSource().description" :applies_to="getItemSource().applies_to"
+     :ingredient="getItemSource().ingredient"
+     :img_size="size" :xoffset="offset" >
+      <img :src="getImg()" class="item-img" :alt="name + ' is not found'"/>
+    </tooltip-smithing>
 </template>
 
 <script>
@@ -23,6 +29,13 @@ export default {
     }
   },
   methods: {
+    getType: function () {
+      const item = itemList.get(this.name);
+      if(item != undefined && item.type != undefined) {
+        return item.type
+      }
+      return "normal";
+    },
     generateName: function () {
       const names = this.name.split("_");
       let newName = ""
@@ -36,7 +49,7 @@ export default {
       if(item != undefined) {
         return item
       }
-      return {img: "minecraft/missing"};  
+      return {img: "minecraft/missing"};
     },
     getImg: function () {
       return `/burning-isle-wiki/images/${this.getItemSource().img}.png`;

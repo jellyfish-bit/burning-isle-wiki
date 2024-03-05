@@ -16,10 +16,10 @@ itemList.set("tartarn_axe", {img: "tartarn/sword", damage: 12, att_speed: 0.9})
 itemList.set("tartarn_pickaxe", {img: "tartarn/pickaxe", damage: 6, att_speed: 1.1})
 itemList.set("tartarn_shovel", {img: "tartarn/shovel", damage: 6.5, att_speed: 1.3})
 itemList.set("tartarn_hoe", {img: "tartarn/hoe", damage: 4, att_speed: 2.1})
-itemList.set("tartarn_helmet", {img: "tartarn/helmet", armor: 3, armor_thg: 2.5, knockback: 0.5, glwoing: 1})
-itemList.set("tartarn_chestplate", {img: "tartarn/chestplate", armor: 8, armor_thg: 2.5, knockback: 0.5, glwoing: 1})
-itemList.set("tartarn_leggings", {img: "tartarn/leggings", armor: 6, armor_thg: 2.5, knockback: 0.5, glwoing: 1})
-itemList.set("tartarn_boots", {img: "tartarn/boots", armor: 3, armor_thg: 2.5, knockback: 0.5, glwoing: 1})
+itemList.set("tartarn_helmet", {img: "tartarn/helmet", armor: 3, armor_thg: 2.5, knockback: 0.5, glowing: 1})
+itemList.set("tartarn_chestplate", {img: "tartarn/chestplate", armor: 8, armor_thg: 2.5, knockback: 0.5, glowing: 1})
+itemList.set("tartarn_leggings", {img: "tartarn/leggings", armor: 6, armor_thg: 2.5, knockback: 0.5, glowing: 1})
+itemList.set("tartarn_boots", {img: "tartarn/boots", armor: 3, armor_thg: 2.5, knockback: 0.5, glowing: 1})
 itemList.set("palistrom_planks", {img: "blocks/palistrom/planks"})
 itemList.set("palistrom_slab", {img: "blocks/palistrom/slab"})
 itemList.set("palistrom_stair", {img: "blocks/palistrom/stair"})
@@ -45,12 +45,12 @@ itemList.set("palistrom_shovel", {img: "palistrom/shovel", damage:3.5, att_speed
 itemList.set("palistrom_hoe", {img: "palistrom/hoe", damage:1, att_speed:2.1})
 itemList.set("tarparz_sword", {img: "tarparz/sword", damage:6, att_speed:1.7})
 itemList.set("tarparz_pickaxe", {img: "tarparz/pickaxe", damage:4, att_speed:1.3})
+itemList.set("tarparz_chestplate", {img: "tarparz/chestplate", armor: 8, armor_thg: 3, knockback: 0.5, glowing: 2})
 itemList.set("tarparz_shard", {img: "tarparz/shard"})
 itemList.set("tarparz_pearl", {img: "tarparz/pearl"})
 itemList.set("tartarn_pearl", {img: "tartarn/pearl"})
 itemList.set("tarparz_necklace", {img: "tarparz/necklace", lore:"Causes Blazes to drop more Blaze Rods"})
 itemList.set("tartarn_necklace", {img: "tartarn/necklace", lore:"Attracts Magmatic Fireflies", glowing:1})
-
 
 itemList.set("purple_mushroom", {img: "mushroom/purple"})
 itemList.set("golden_mushroom", {img: "mushroom/golden"})
@@ -59,7 +59,7 @@ itemList.set("light_blue_mushroom", {img: "mushroom/light_blue"})
 itemList.set("purple_mushroom_ring", {img: "mushroom/ring/purple", lore: "Turns the Wearer Invisible when taking damage"})
 itemList.set("golden_mushroom_ring", {img: "mushroom/ring/golden", lore: "Makes Piglins Neutral"})
 itemList.set("white_mushroom_ring", {img: "mushroom/ring/white"})
-itemList.set("light_blue_mushroom_ring", {img: "mushroom/ring/light_blue", glowing:2})
+itemList.set("light_blue_mushroom_ring", {img: "mushroom/ring/light_blue", lore: "Increased power during the night [1-3]"})
 
 itemList.set("golden_mushroom_block", {img: "blocks/mushroom/golden"})
 itemList.set("mushroom_stem", {img: "blocks/mushroom/stem"})
@@ -74,6 +74,10 @@ itemList.set("verdant_froglight", {img: "blocks/froglight/verdant"})
 itemList.set("pearlescent_froglight", {img: "blocks/froglight/pearlescent"})
 
 
+itemList.set("tarparz_smithing_template", {img: "tarparz/smithing_template", description: "Tarparz Upgrade",
+ applies_to: "Palistrom Pickaxe, Sword and Tartarn Chestplate", ingredient: "Tarparz Shard", type: "smithing"})
+
+
 
 itemList.set("test", {
     img: "/minecraft/glass_bottle",
@@ -82,7 +86,7 @@ itemList.set("test", {
     armor: 3,
     armor_thg: 2,
     knockback: 3.6,
-    glwoing: 0.1
+    glowing: 0.1
 })
 
   
