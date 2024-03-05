@@ -5,7 +5,7 @@
 
             <br v-if="variant" class="white">
             <span v-if="variant" class="gray">Varirant:
-              <span class="colered">{{ variant }}</span>
+              <span class="colored">{{ variant }}</span>
             </span>
             
             
@@ -43,7 +43,7 @@
     bottom: -1.6em;
     left: v-bind(xoffset + "px");
     position: absolute;
-    font-family: "Minecraftia";
+    font-family: "Minecraftia", serif;
 
     font-size: 100%;
     padding: 1px 5px 2px 5px;
@@ -77,7 +77,7 @@
 .hover-item:hover .hover-preview {
     display: block;
 }
-.colered {
+.colored {
   color: v-bind(color)
 }
 .white {

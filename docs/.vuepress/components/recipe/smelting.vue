@@ -14,7 +14,10 @@
 </template>
 
 <script>
+import Item from "../Item.vue";
+
 export default {
+  components: {Item},
   props: {
     input: {
       type: String,

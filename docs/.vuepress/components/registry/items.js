@@ -36,6 +36,8 @@ itemList.set("palistrom_fence_gate", {img: "blocks/palistrom/fence_gate"})
 itemList.set("palistrom_sign", {img: "blocks/palistrom/sign"})
 itemList.set("palistrom_hanging_sign", {img: "blocks/palistrom/hanging_sign"})
 itemList.set("palistrom_wart", {img: "blocks/palistrom/wart"})
+itemList.set("palistrom_fungus", {img: "blocks/palistrom/fungus"})
+
 
 itemList.set("palistrom_ring", {img: "palistrom/ring"})
 itemList.set("palistrom_sword", {img: "palistrom/sword", damage:5, att_speed:1.7})

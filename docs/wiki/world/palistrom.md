@@ -1,6 +1,6 @@
 # Palistrom Fungus
 
-<img src="../../assets/palistrom_fungus.png">
+<img src="../../assets/palistrom_fungus.png" loading="lazy">
 
 Palistrom Fungi can be found rarely in the Crimson or Warped Forest.
 Or more commenly in Mauveine Forest.

@@ -6,4 +6,6 @@
 - [Spells](spells/index.md)
 - [World](world/index.md)
 
+- [Info](otherinfo.md)
+
 

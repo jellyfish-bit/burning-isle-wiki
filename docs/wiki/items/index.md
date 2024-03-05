@@ -8,6 +8,8 @@ An Overview of all items
 * [Tarparz](tarparz.md)
 * [Palistrom](palistrom.md)
 * [Mushrooms](mushroom.md#mushrooms)
+* [Pearls](pearls.md#pearls)
+* [Necklaces](pearls.md#necklaces)
 * [Rings](mushroom.md#rings)
 
 

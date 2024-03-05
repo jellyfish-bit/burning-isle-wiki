@@ -8,8 +8,8 @@
       </tr>
       <tr>
         <td><Item v-if="slot_4" :name="slot_4" :size="32" /></td>
-        <td><Item v-if="slot_5" :name="slot_5" :size="32"/></td>
-        <td><Item v-if="slot_6" :name="slot_6" :size="32"/></td>
+        <td><Item v-if="slot_5" :name="slot_5" :size="32" /></td>
+        <td><Item v-if="slot_6" :name="slot_6" :size="32" /></td>
       </tr>
       <tr>
         <td><Item v-if="slot_7" :name="slot_7" :size="32" /></td>
@@ -26,7 +26,10 @@
 </template>
   
 <script>
+import Item from "../Item.vue";
+
 export default {
+  components: {Item},
   props: {
     slot_1: {
       type: String,

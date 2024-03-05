@@ -43,7 +43,7 @@ export default {
     },
     img_size: {
       type: [Number, String],
-      default: 64
+      default: "unset"
     }
   }
 }
@@ -54,7 +54,7 @@ export default {
 
 .hover-item {
   position: relative;
-  display: block;
+  display: inline-block;
   width: v-bind(img_size + "px");
   height: v-bind(img_size + "px");
 }
@@ -63,7 +63,7 @@ export default {
   bottom: -1.6em;
   left: v-bind(xoffset + "px");
   position: absolute;
-  font-family: "Minecraftia";
+  font-family: "Minecraftia", serif;
 
   font-size: 100%;
   padding: 1px 5px 2px 5px;
@@ -91,7 +91,7 @@ export default {
 .hover-preview span {
   direction: ltr;
   display: block;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
   text-align: left;
   overflow: visible;
 }
@@ -117,4 +117,5 @@ export default {
 
 .gray {
   color: #AAAAAA;
-}</style>
+}
+</style>
